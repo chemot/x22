@@ -25,7 +25,7 @@ botStart = time.time()
 # Add me [ID LINE] http://line.me/ti/p/%40ryp6149l
 
 #Galank = LINE()
-Galank = LINE("TOKENMU BEB")
+Galank = LINE("EvdZNxDNmt58flptWOcf.K9hUseF6j4f/WE5DLTHHBW./TPgT9sGyLjV3/jr3URfzQZIsa5MA9peM67UW39B41A=")
 #Galank = LINE("Email","Password")
 #Galank = LINE()
 Galank.log("Auth Token : " + str(Galank.authToken))
@@ -469,7 +469,7 @@ def GalankBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     Galank.sendMessage(to, str(helpMessage))
-                    Galank.sendContact(to, "u78643d09e42a36836a17cc918963a8b7")
+                    Galank.sendContact(to, "u9f09cfcb17d037e2936b751bd9d40ead")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     Galank.sendMessage(to, str(helpTextToSpeech))
@@ -494,7 +494,7 @@ def GalankBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u78643d09e42a36836a17cc918963a8b7"
+                        owner = "u9f09cfcb17d037e2936b751bd9d40ead"
                         creator = Galank.getContact(owner)
                         contact = Galank.getContact(GalankMID)
                         grouplist = Galank.getGroupIdsJoined()
@@ -2576,7 +2576,7 @@ def GalankBot(op):
                         for mention in mentionees:
                             if GalankMID in mention["M"]:
                               if settings["detectMention"] == True:
-                                 sendMention(receiver, sender, "", " \nGalank Hadir BossQ!! ")
+                                 sendMention(receiver, sender, "", " \noit")
 
         if op.type == 17:
            print ("MEMBER JOIN TO GROUP")
